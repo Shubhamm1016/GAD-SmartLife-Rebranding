@@ -1,0 +1,9 @@
+export const GEGBodyCopy = "GEG-BodyCopy";
+export const GEGBodyCopyHighlight = "GEG-BodyCopyHighlight";
+export const GEGBodyCopyHighlightItalic = "GEG-BodyCopyHighlightItalic";
+export const GEGBold = "GEG-Bold";
+export const GEGExtraBold = "GEG-ExtraBold";
+export const GEGHeadline = "GEG-Headline";
+export const GEGHeadlineItalic = "GEG-HeadlineItalic";
+export const GEGLight = "GEG-Light";
+export const GEGLightItalic = "GEG-LightItalic";

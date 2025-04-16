@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "737248352915",
+    "project_id": "reactnativeiosapp-f5ce0",
+    "storage_bucket": "reactnativeiosapp-f5ce0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:737248352915:android:dfecc0514402ef5e4f0b66",
+        "android_client_info": {
+          "package_name": "com.godrej.boyce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "737248352915-6vu5eu6g6f2gevuotfh26gj8ciibgr50.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.godrej.boyce",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "737248352915-bseigf66avd0ud1hhkdrnjgagjkfiip4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnB8EOMSPnu0r_1ExMXAQZpBEEKvDXecQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "737248352915-bseigf66avd0ud1hhkdrnjgagjkfiip4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "737248352915-dn0pa6adn778o4c0rkn6nc1rt21armei.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.godrej.boyce"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

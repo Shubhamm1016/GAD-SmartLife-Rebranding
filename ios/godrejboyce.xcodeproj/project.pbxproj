@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* godrejboyceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* godrejboyceTests.m */; };
+		0B9969814FB948EE92A3BF1F /* GEG-BodyCopyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8364BD8CD96646C39C16C946 /* GEG-BodyCopyItalic.ttf */; };
+		0F2BE8C1ADE64CEAB183F509 /* GEG-BodyCopyHighlightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B2A70E003A456E80E7C978 /* GEG-BodyCopyHighlightItalic.ttf */; };
+		10D82AEBE39B0BA5F34D3D4D /* libPods-godrejboyce.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 388A067A50EF6EBD3B0D5E36 /* libPods-godrejboyce.a */; };
+		10FAFDDBFE7A4CF59EBC5781 /* GEG-HeadlineItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D41EF139BED34406893FCF4F /* GEG-HeadlineItalic.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		281C67E92D953B03005D79E8 /* ESPNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B232D9529CA0092312E /* ESPNotificationHandler.swift */; };
+		281C67EA2D953C23005D79E8 /* ESPNodeAddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B112D9528D40092312E /* ESPNodeAddEvent.swift */; };
+		281C67EB2D953C30005D79E8 /* ESPNodeDisconnectedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B172D95293A0092312E /* ESPNodeDisconnectedEvent.swift */; };
+		281C67EC2D953C41005D79E8 /* ESPNodeAlertEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B132D9528F60092312E /* ESPNodeAlertEvent.swift */; };
+		281C67EE2D953C49005D79E8 /* ESPNodeSharingDeclineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1D2D95298A0092312E /* ESPNodeSharingDeclineEvent.swift */; };
+		281C67EF2D953C4D005D79E8 /* ESPNotificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B212D9529B50092312E /* ESPNotificationEvent.swift */; };
+		281C67F02D953C50005D79E8 /* ESPNodeSharingRemovedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1F2D95299F0092312E /* ESPNodeSharingRemovedEvent.swift */; };
+		281C67F12D953C52005D79E8 /* ESPNodeSharingAcceptedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1B2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift */; };
+		281C67F22D953C55005D79E8 /* ESPNodeRemoveEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B192D9529580092312E /* ESPNodeRemoveEvent.swift */; };
+		281C67F32D953C58005D79E8 /* ESPNodeConnectedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B152D9529220092312E /* ESPNodeConnectedEvent.swift */; };
+		281C67F42D953C60005D79E8 /* ESPNotificationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B272D9529F10092312E /* ESPNotificationProtocol.swift */; };
+		281C67F52D953C63005D79E8 /* ESPNotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B252D9529DD0092312E /* ESPNotificationKeys.swift */; };
+		281C67F72D953C73005D79E8 /* ESPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B302D952AB10092312E /* ESPConfiguration.swift */; };
+		281C67F82D953C76005D79E8 /* ESPLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B322D952ACE0092312E /* ESPLocalStorage.swift */; };
+		281C67F92D953C79005D79E8 /* ESPLocalStorageNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B342D952AE30092312E /* ESPLocalStorageNodes.swift */; };
+		281C67FA2D953C7C005D79E8 /* ESPLocalStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B362D952AF60092312E /* ESPLocalStorageProtocol.swift */; };
+		281C67FB2D953C7F005D79E8 /* ESPNodesStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B382D952B0A0092312E /* ESPNodesStorageProtocol.swift */; };
+		281C67FC2D953C85005D79E8 /* ESPNotificationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B3C2D952B890092312E /* ESPNotificationStorage.swift */; };
+		281C67FD2D953C88005D79E8 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B3E2D952B9D0092312E /* LocalStorage.swift */; };
+		281C67FF2D953C9E005D79E8 /* ESPNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B292D952A1F0092312E /* ESPNotifications.swift */; };
+		281C68002D953CA1005D79E8 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B2B2D952A370092312E /* Node.swift */; };
+		281C68012D953CA5005D79E8 /* Array<String>+CombinedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B2D2D952A5D0092312E /* Array<String>+CombinedString.swift */; };
+		28771F262DAF6635006417D8 /* ESPNotificationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28771F252DAF6635006417D8 /* ESPNotificationsStore.swift */; };
+		28771F272DAF6635006417D8 /* ESPNotificationsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28771F252DAF6635006417D8 /* ESPNotificationsStore.swift */; };
+		28CA5B122D9528D40092312E /* ESPNodeAddEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B112D9528D40092312E /* ESPNodeAddEvent.swift */; };
+		28CA5B142D9528F60092312E /* ESPNodeAlertEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B132D9528F60092312E /* ESPNodeAlertEvent.swift */; };
+		28CA5B162D9529220092312E /* ESPNodeConnectedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B152D9529220092312E /* ESPNodeConnectedEvent.swift */; };
+		28CA5B182D95293A0092312E /* ESPNodeDisconnectedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B172D95293A0092312E /* ESPNodeDisconnectedEvent.swift */; };
+		28CA5B1A2D9529580092312E /* ESPNodeRemoveEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B192D9529580092312E /* ESPNodeRemoveEvent.swift */; };
+		28CA5B1C2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1B2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift */; };
+		28CA5B1E2D95298B0092312E /* ESPNodeSharingDeclineEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1D2D95298A0092312E /* ESPNodeSharingDeclineEvent.swift */; };
+		28CA5B202D95299F0092312E /* ESPNodeSharingRemovedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B1F2D95299F0092312E /* ESPNodeSharingRemovedEvent.swift */; };
+		28CA5B222D9529B50092312E /* ESPNotificationEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B212D9529B50092312E /* ESPNotificationEvent.swift */; };
+		28CA5B242D9529CA0092312E /* ESPNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B232D9529CA0092312E /* ESPNotificationHandler.swift */; };
+		28CA5B262D9529DD0092312E /* ESPNotificationKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B252D9529DD0092312E /* ESPNotificationKeys.swift */; };
+		28CA5B282D9529F10092312E /* ESPNotificationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B272D9529F10092312E /* ESPNotificationProtocol.swift */; };
+		28CA5B2A2D952A1F0092312E /* ESPNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B292D952A1F0092312E /* ESPNotifications.swift */; };
+		28CA5B2C2D952A370092312E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B2B2D952A370092312E /* Node.swift */; };
+		28CA5B2E2D952A5D0092312E /* Array<String>+CombinedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B2D2D952A5D0092312E /* Array<String>+CombinedString.swift */; };
+		28CA5B312D952AB10092312E /* ESPConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B302D952AB10092312E /* ESPConfiguration.swift */; };
+		28CA5B332D952ACE0092312E /* ESPLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B322D952ACE0092312E /* ESPLocalStorage.swift */; };
+		28CA5B352D952AE30092312E /* ESPLocalStorageNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B342D952AE30092312E /* ESPLocalStorageNodes.swift */; };
+		28CA5B372D952AF60092312E /* ESPLocalStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B362D952AF60092312E /* ESPLocalStorageProtocol.swift */; };
+		28CA5B392D952B0A0092312E /* ESPNodesStorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B382D952B0A0092312E /* ESPNodesStorageProtocol.swift */; };
+		28CA5B3D2D952B890092312E /* ESPNotificationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B3C2D952B890092312E /* ESPNotificationStorage.swift */; };
+		28CA5B3F2D952B9D0092312E /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B3E2D952B9D0092312E /* LocalStorage.swift */; };
+		28CA5B4A2D952C6C0092312E /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B492D952C6C0092312E /* NotificationService.swift */; };
+		28CA5B4E2D952C6C0092312E /* GoderjPushNotification.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 28CA5B472D952C6C0092312E /* GoderjPushNotification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		28F0B9BE2D9537250001F83B /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CA5B492D952C6C0092312E /* NotificationService.swift */; };
+		38725C1A2D2BA142009741CB /* NotificationModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 38725C192D2BA142009741CB /* NotificationModule.m */; };
+		38725C1C2D2BA19C009741CB /* NotificationModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38725C1B2D2BA19C009741CB /* NotificationModule.swift */; };
+		3CF25AC3D7C44CAD8DEA3721 /* GEG-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44020BCF323D4CD39CFA9CA1 /* GEG-Light.ttf */; };
+		623C12EE2BDF7EA20097155C /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 623C12ED2BDF7EA20097155C /* main.jsbundle */; };
+		625009A32BDB838100068593 /* hermes.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E1D3AF2BDB637E00CBD41D /* hermes.xcframework */; };
+		629AA80E2C92DF94001365B1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 629AA80D2C92DF94001365B1 /* GoogleService-Info.plist */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8C95E1FDEBDD43178AB63D0E /* GEG-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AF5AEFEF6294480CAB214B83 /* GEG-Bold.ttf */; };
+		A2BC8A709E18451EA19DDCE3 /* GEG-BodyCopy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B12DB77770434E67BB30E190 /* GEG-BodyCopy.ttf */; };
+		A639DF7900CA420FBEFED317 /* GEG-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 11FC5FB6C4344FF582E22ACD /* GEG-ExtraBold.ttf */; };
+		A72A60C208554E179D8F47F2 /* GEG-Headline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD8F9E6A1D844945BA241F8C /* GEG-Headline.ttf */; };
+		B2ADF15137508AA36178FC22 /* libPods-godrejboyce-godrejboyceTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE078804341E9005FE8F1105 /* libPods-godrejboyce-godrejboyceTests.a */; };
+		BF34FA34833F4FC38F9F8A0C /* GEG-BodyCopyHighlight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7A97A6D7A3AC4512B832DC43 /* GEG-BodyCopyHighlight.ttf */; };
+		C397C69904624689AAE35DDB /* GEG-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A92FF6C1FBED43F2B688F7CF /* GEG-LightItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = godrejboyce;
+		};
+		28CA5B4C2D952C6C0092312E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CA5B462D952C6C0092312E;
+			remoteInfo = GoderjPushNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		38725C2E2D2BDE13009741CB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				28CA5B4E2D952C6C0092312E /* GoderjPushNotification.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* godrejboyceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = godrejboyceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* godrejboyceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = godrejboyceTests.m; sourceTree = "<group>"; };
+		06CF8FD5986A2699B137CB08 /* Pods-godrejboyce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godrejboyce.release.xcconfig"; path = "Target Support Files/Pods-godrejboyce/Pods-godrejboyce.release.xcconfig"; sourceTree = "<group>"; };
+		11FC5FB6C4344FF582E22ACD /* GEG-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-ExtraBold.ttf"; path = "../assets/fonts/GEG-ExtraBold.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* godrejboyce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = godrejboyce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = godrejboyce/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = godrejboyce/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = godrejboyce/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = godrejboyce/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = godrejboyce/main.m; sourceTree = "<group>"; };
+		19C5FBAEA368AC844A9D7347 /* Pods-godrejboyce-godrejboyceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godrejboyce-godrejboyceTests.debug.xcconfig"; path = "Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		28771F252DAF6635006417D8 /* ESPNotificationsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationsStore.swift; sourceTree = "<group>"; };
+		28CA5B112D9528D40092312E /* ESPNodeAddEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeAddEvent.swift; sourceTree = "<group>"; };
+		28CA5B132D9528F60092312E /* ESPNodeAlertEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeAlertEvent.swift; sourceTree = "<group>"; };
+		28CA5B152D9529220092312E /* ESPNodeConnectedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeConnectedEvent.swift; sourceTree = "<group>"; };
+		28CA5B172D95293A0092312E /* ESPNodeDisconnectedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeDisconnectedEvent.swift; sourceTree = "<group>"; };
+		28CA5B192D9529580092312E /* ESPNodeRemoveEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeRemoveEvent.swift; sourceTree = "<group>"; };
+		28CA5B1B2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeSharingAcceptedEvent.swift; sourceTree = "<group>"; };
+		28CA5B1D2D95298A0092312E /* ESPNodeSharingDeclineEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeSharingDeclineEvent.swift; sourceTree = "<group>"; };
+		28CA5B1F2D95299F0092312E /* ESPNodeSharingRemovedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodeSharingRemovedEvent.swift; sourceTree = "<group>"; };
+		28CA5B212D9529B50092312E /* ESPNotificationEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationEvent.swift; sourceTree = "<group>"; };
+		28CA5B232D9529CA0092312E /* ESPNotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationHandler.swift; sourceTree = "<group>"; };
+		28CA5B252D9529DD0092312E /* ESPNotificationKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationKeys.swift; sourceTree = "<group>"; };
+		28CA5B272D9529F10092312E /* ESPNotificationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationProtocol.swift; sourceTree = "<group>"; };
+		28CA5B292D952A1F0092312E /* ESPNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotifications.swift; sourceTree = "<group>"; };
+		28CA5B2B2D952A370092312E /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		28CA5B2D2D952A5D0092312E /* Array<String>+CombinedString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array<String>+CombinedString.swift"; sourceTree = "<group>"; };
+		28CA5B302D952AB10092312E /* ESPConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPConfiguration.swift; sourceTree = "<group>"; };
+		28CA5B322D952ACE0092312E /* ESPLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPLocalStorage.swift; sourceTree = "<group>"; };
+		28CA5B342D952AE30092312E /* ESPLocalStorageNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPLocalStorageNodes.swift; sourceTree = "<group>"; };
+		28CA5B362D952AF60092312E /* ESPLocalStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPLocalStorageProtocol.swift; sourceTree = "<group>"; };
+		28CA5B382D952B0A0092312E /* ESPNodesStorageProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNodesStorageProtocol.swift; sourceTree = "<group>"; };
+		28CA5B3C2D952B890092312E /* ESPNotificationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESPNotificationStorage.swift; sourceTree = "<group>"; };
+		28CA5B3E2D952B9D0092312E /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		28CA5B472D952C6C0092312E /* GoderjPushNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = GoderjPushNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CA5B492D952C6C0092312E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		28CA5B4B2D952C6C0092312E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38725C192D2BA142009741CB /* NotificationModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationModule.m; sourceTree = "<group>"; };
+		38725C1B2D2BA19C009741CB /* NotificationModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationModule.swift; sourceTree = "<group>"; };
+		388A067A50EF6EBD3B0D5E36 /* libPods-godrejboyce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-godrejboyce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39B2A70E003A456E80E7C978 /* GEG-BodyCopyHighlightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-BodyCopyHighlightItalic.ttf"; path = "../assets/fonts/GEG-BodyCopyHighlightItalic.ttf"; sourceTree = "<group>"; };
+		44020BCF323D4CD39CFA9CA1 /* GEG-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-Light.ttf"; path = "../assets/fonts/GEG-Light.ttf"; sourceTree = "<group>"; };
+		620900E42CB3F60900007024 /* godrejboyceRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = godrejboyceRelease.entitlements; path = godrejboyce/godrejboyceRelease.entitlements; sourceTree = "<group>"; };
+		6218CF482B4D24C9004399ED /* godrejboyce-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "godrejboyce-Bridging-Header.h"; sourceTree = "<group>"; };
+		623C12ED2BDF7EA20097155C /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		6277F71F2BF4B49600C5021F /* godrejboyce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = godrejboyce.entitlements; path = godrejboyce/godrejboyce.entitlements; sourceTree = "<group>"; };
+		629AA80D2C92DF94001365B1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		62E1D3AF2BDB637E00CBD41D /* hermes.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = hermes.xcframework; path = "Pods/hermes-engine/destroot/Library/Frameworks/universal/hermes.xcframework"; sourceTree = "<group>"; };
+		7A97A6D7A3AC4512B832DC43 /* GEG-BodyCopyHighlight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-BodyCopyHighlight.ttf"; path = "../assets/fonts/GEG-BodyCopyHighlight.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = godrejboyce/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8364BD8CD96646C39C16C946 /* GEG-BodyCopyItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-BodyCopyItalic.ttf"; path = "../assets/fonts/GEG-BodyCopyItalic.ttf"; sourceTree = "<group>"; };
+		A92FF6C1FBED43F2B688F7CF /* GEG-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-LightItalic.ttf"; path = "../assets/fonts/GEG-LightItalic.ttf"; sourceTree = "<group>"; };
+		AF5AEFEF6294480CAB214B83 /* GEG-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-Bold.ttf"; path = "../assets/fonts/GEG-Bold.ttf"; sourceTree = "<group>"; };
+		B12DB77770434E67BB30E190 /* GEG-BodyCopy.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-BodyCopy.ttf"; path = "../assets/fonts/GEG-BodyCopy.ttf"; sourceTree = "<group>"; };
+		C2C9DEAFC871ABF4645E053D /* Pods-godrejboyce-godrejboyceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godrejboyce-godrejboyceTests.release.xcconfig"; path = "Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests.release.xcconfig"; sourceTree = "<group>"; };
+		CE078804341E9005FE8F1105 /* libPods-godrejboyce-godrejboyceTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-godrejboyce-godrejboyceTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D41EF139BED34406893FCF4F /* GEG-HeadlineItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-HeadlineItalic.ttf"; path = "../assets/fonts/GEG-HeadlineItalic.ttf"; sourceTree = "<group>"; };
+		D59EBB5C63EFB05ADAA65279 /* Pods-godrejboyce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-godrejboyce.debug.xcconfig"; path = "Target Support Files/Pods-godrejboyce/Pods-godrejboyce.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		FD8F9E6A1D844945BA241F8C /* GEG-Headline.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "GEG-Headline.ttf"; path = "../assets/fonts/GEG-Headline.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2ADF15137508AA36178FC22 /* libPods-godrejboyce-godrejboyceTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				625009A32BDB838100068593 /* hermes.xcframework in Frameworks */,
+				10D82AEBE39B0BA5F34D3D4D /* libPods-godrejboyce.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA5B442D952C6C0092312E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* godrejboyceTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* godrejboyceTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = godrejboyceTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* godrejboyce */ = {
+			isa = PBXGroup;
+			children = (
+				620900E42CB3F60900007024 /* godrejboyceRelease.entitlements */,
+				6277F71F2BF4B49600C5021F /* godrejboyce.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				38725C192D2BA142009741CB /* NotificationModule.m */,
+				38725C1B2D2BA19C009741CB /* NotificationModule.swift */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				6218CF482B4D24C9004399ED /* godrejboyce-Bridging-Header.h */,
+			);
+			name = godrejboyce;
+			sourceTree = "<group>";
+		};
+		28CA5B052D9527900092312E /* GodrejNotification */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B402D952BC10092312E /* Notification */,
+				28CA5B062D9527DB0092312E /* Godrej+GodrejNotification */,
+			);
+			name = GodrejNotification;
+			sourceTree = "<group>";
+		};
+		28CA5B062D9527DB0092312E /* Godrej+GodrejNotification */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B092D9528100092312E /* NotificationHandler */,
+				28CA5B082D9528070092312E /* Model */,
+				28CA5B072D9527FB0092312E /* Extensions */,
+			);
+			path = "Godrej+GodrejNotification";
+			sourceTree = "<group>";
+		};
+		28CA5B072D9527FB0092312E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B2D2D952A5D0092312E /* Array<String>+CombinedString.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		28CA5B082D9528070092312E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B292D952A1F0092312E /* ESPNotifications.swift */,
+				28CA5B2B2D952A370092312E /* Node.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28CA5B092D9528100092312E /* NotificationHandler */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B2F2D952A8C0092312E /* Storage */,
+				28CA5B0A2D9528290092312E /* Events */,
+			);
+			name = NotificationHandler;
+			sourceTree = "<group>";
+		};
+		28CA5B0A2D9528290092312E /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B112D9528D40092312E /* ESPNodeAddEvent.swift */,
+				28CA5B132D9528F60092312E /* ESPNodeAlertEvent.swift */,
+				28CA5B152D9529220092312E /* ESPNodeConnectedEvent.swift */,
+				28CA5B172D95293A0092312E /* ESPNodeDisconnectedEvent.swift */,
+				28CA5B192D9529580092312E /* ESPNodeRemoveEvent.swift */,
+				28CA5B1B2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift */,
+				28CA5B1D2D95298A0092312E /* ESPNodeSharingDeclineEvent.swift */,
+				28CA5B1F2D95299F0092312E /* ESPNodeSharingRemovedEvent.swift */,
+				28CA5B212D9529B50092312E /* ESPNotificationEvent.swift */,
+				28CA5B232D9529CA0092312E /* ESPNotificationHandler.swift */,
+				28CA5B252D9529DD0092312E /* ESPNotificationKeys.swift */,
+				28CA5B272D9529F10092312E /* ESPNotificationProtocol.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		28CA5B2F2D952A8C0092312E /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B302D952AB10092312E /* ESPConfiguration.swift */,
+				28CA5B322D952ACE0092312E /* ESPLocalStorage.swift */,
+				28CA5B342D952AE30092312E /* ESPLocalStorageNodes.swift */,
+				28CA5B362D952AF60092312E /* ESPLocalStorageProtocol.swift */,
+				28CA5B382D952B0A0092312E /* ESPNodesStorageProtocol.swift */,
+				28CA5B3C2D952B890092312E /* ESPNotificationStorage.swift */,
+				28CA5B3E2D952B9D0092312E /* LocalStorage.swift */,
+				28771F252DAF6635006417D8 /* ESPNotificationsStore.swift */,
+			);
+			name = Storage;
+			sourceTree = "<group>";
+		};
+		28CA5B402D952BC10092312E /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Notification;
+			sourceTree = "<group>";
+		};
+		28CA5B482D952C6C0092312E /* GoderjPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				28CA5B492D952C6C0092312E /* NotificationService.swift */,
+				28CA5B4B2D952C6C0092312E /* Info.plist */,
+			);
+			path = GoderjPushNotification;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E1D3AF2BDB637E00CBD41D /* hermes.xcframework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				388A067A50EF6EBD3B0D5E36 /* libPods-godrejboyce.a */,
+				CE078804341E9005FE8F1105 /* libPods-godrejboyce-godrejboyceTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7494C09B66A84D8A816D2D71 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B12DB77770434E67BB30E190 /* GEG-BodyCopy.ttf */,
+				7A97A6D7A3AC4512B832DC43 /* GEG-BodyCopyHighlight.ttf */,
+				39B2A70E003A456E80E7C978 /* GEG-BodyCopyHighlightItalic.ttf */,
+				8364BD8CD96646C39C16C946 /* GEG-BodyCopyItalic.ttf */,
+				AF5AEFEF6294480CAB214B83 /* GEG-Bold.ttf */,
+				11FC5FB6C4344FF582E22ACD /* GEG-ExtraBold.ttf */,
+				FD8F9E6A1D844945BA241F8C /* GEG-Headline.ttf */,
+				D41EF139BED34406893FCF4F /* GEG-HeadlineItalic.ttf */,
+				44020BCF323D4CD39CFA9CA1 /* GEG-Light.ttf */,
+				A92FF6C1FBED43F2B688F7CF /* GEG-LightItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				28CA5B052D9527900092312E /* GodrejNotification */,
+				629AA80D2C92DF94001365B1 /* GoogleService-Info.plist */,
+				623C12ED2BDF7EA20097155C /* main.jsbundle */,
+				13B07FAE1A68108700A75B9A /* godrejboyce */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* godrejboyceTests */,
+				28CA5B482D952C6C0092312E /* GoderjPushNotification */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7494C09B66A84D8A816D2D71 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* godrejboyce.app */,
+				00E356EE1AD99517003FC87E /* godrejboyceTests.xctest */,
+				28CA5B472D952C6C0092312E /* GoderjPushNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59EBB5C63EFB05ADAA65279 /* Pods-godrejboyce.debug.xcconfig */,
+				06CF8FD5986A2699B137CB08 /* Pods-godrejboyce.release.xcconfig */,
+				19C5FBAEA368AC844A9D7347 /* Pods-godrejboyce-godrejboyceTests.debug.xcconfig */,
+				C2C9DEAFC871ABF4645E053D /* Pods-godrejboyce-godrejboyceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* godrejboyceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "godrejboyceTests" */;
+			buildPhases = (
+				2D1A6F6D1C69996BA521C68F /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				F2375C39D90D7ADC3891C147 /* [CP] Copy Pods Resources */,
+				DC06BDA47621C3DBF82382B4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = godrejboyceTests;
+			productName = godrejboyceTests;
+			productReference = 00E356EE1AD99517003FC87E /* godrejboyceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* godrejboyce */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "godrejboyce" */;
+			buildPhases = (
+				0258A8EB20C9BEA08EA8ED94 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				5FC8D78C17E9D499C14C29D8 /* [CP] Copy Pods Resources */,
+				5296A48197A3C2622BAE7512 /* [CP] Embed Pods Frameworks */,
+				38725C2E2D2BDE13009741CB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CA5B4D2D952C6C0092312E /* PBXTargetDependency */,
+			);
+			name = godrejboyce;
+			productName = godrejboyce;
+			productReference = 13B07F961A680F5B00A75B9A /* godrejboyce.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CA5B462D952C6C0092312E /* GoderjPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CA5B512D952C6C0092312E /* Build configuration list for PBXNativeTarget "GoderjPushNotification" */;
+			buildPhases = (
+				28CA5B432D952C6C0092312E /* Sources */,
+				28CA5B442D952C6C0092312E /* Frameworks */,
+				28CA5B452D952C6C0092312E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoderjPushNotification;
+			productName = GoderjPushNotification;
+			productReference = 28CA5B472D952C6C0092312E /* GoderjPushNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1500;
+					};
+					28CA5B462D952C6C0092312E = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "godrejboyce" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* godrejboyce */,
+				00E356ED1AD99517003FC87E /* godrejboyceTests */,
+				28CA5B462D952C6C0092312E /* GoderjPushNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629AA80E2C92DF94001365B1 /* GoogleService-Info.plist in Resources */,
+				623C12EE2BDF7EA20097155C /* main.jsbundle in Resources */,
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A2BC8A709E18451EA19DDCE3 /* GEG-BodyCopy.ttf in Resources */,
+				BF34FA34833F4FC38F9F8A0C /* GEG-BodyCopyHighlight.ttf in Resources */,
+				0F2BE8C1ADE64CEAB183F509 /* GEG-BodyCopyHighlightItalic.ttf in Resources */,
+				0B9969814FB948EE92A3BF1F /* GEG-BodyCopyItalic.ttf in Resources */,
+				8C95E1FDEBDD43178AB63D0E /* GEG-Bold.ttf in Resources */,
+				A639DF7900CA420FBEFED317 /* GEG-ExtraBold.ttf in Resources */,
+				A72A60C208554E179D8F47F2 /* GEG-Headline.ttf in Resources */,
+				10FAFDDBFE7A4CF59EBC5781 /* GEG-HeadlineItalic.ttf in Resources */,
+				3CF25AC3D7C44CAD8DEA3721 /* GEG-Light.ttf in Resources */,
+				C397C69904624689AAE35DDB /* GEG-LightItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA5B452D952C6C0092312E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		0258A8EB20C9BEA08EA8ED94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godrejboyce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D1A6F6D1C69996BA521C68F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-godrejboyce-godrejboyceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5296A48197A3C2622BAE7512 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FC8D78C17E9D499C14C29D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-godrejboyce/Pods-godrejboyce-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC06BDA47621C3DBF82382B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2375C39D90D7ADC3891C147 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-godrejboyce-godrejboyceTests/Pods-godrejboyce-godrejboyceTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* godrejboyceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA5B332D952ACE0092312E /* ESPLocalStorage.swift in Sources */,
+				28CA5B1E2D95298B0092312E /* ESPNodeSharingDeclineEvent.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				28CA5B182D95293A0092312E /* ESPNodeDisconnectedEvent.swift in Sources */,
+				28F0B9BE2D9537250001F83B /* NotificationService.swift in Sources */,
+				28CA5B242D9529CA0092312E /* ESPNotificationHandler.swift in Sources */,
+				28CA5B1A2D9529580092312E /* ESPNodeRemoveEvent.swift in Sources */,
+				28CA5B2A2D952A1F0092312E /* ESPNotifications.swift in Sources */,
+				28CA5B312D952AB10092312E /* ESPConfiguration.swift in Sources */,
+				28CA5B372D952AF60092312E /* ESPLocalStorageProtocol.swift in Sources */,
+				28CA5B392D952B0A0092312E /* ESPNodesStorageProtocol.swift in Sources */,
+				28CA5B262D9529DD0092312E /* ESPNotificationKeys.swift in Sources */,
+				28CA5B142D9528F60092312E /* ESPNodeAlertEvent.swift in Sources */,
+				28771F272DAF6635006417D8 /* ESPNotificationsStore.swift in Sources */,
+				28CA5B202D95299F0092312E /* ESPNodeSharingRemovedEvent.swift in Sources */,
+				28CA5B3D2D952B890092312E /* ESPNotificationStorage.swift in Sources */,
+				38725C1C2D2BA19C009741CB /* NotificationModule.swift in Sources */,
+				28CA5B3F2D952B9D0092312E /* LocalStorage.swift in Sources */,
+				28CA5B2E2D952A5D0092312E /* Array<String>+CombinedString.swift in Sources */,
+				28CA5B352D952AE30092312E /* ESPLocalStorageNodes.swift in Sources */,
+				28CA5B2C2D952A370092312E /* Node.swift in Sources */,
+				28CA5B222D9529B50092312E /* ESPNotificationEvent.swift in Sources */,
+				28CA5B162D9529220092312E /* ESPNodeConnectedEvent.swift in Sources */,
+				38725C1A2D2BA142009741CB /* NotificationModule.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				28CA5B122D9528D40092312E /* ESPNodeAddEvent.swift in Sources */,
+				28CA5B1C2D9529720092312E /* ESPNodeSharingAcceptedEvent.swift in Sources */,
+				28CA5B282D9529F10092312E /* ESPNotificationProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CA5B432D952C6C0092312E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				281C67EC2D953C41005D79E8 /* ESPNodeAlertEvent.swift in Sources */,
+				281C68002D953CA1005D79E8 /* Node.swift in Sources */,
+				281C67FA2D953C7C005D79E8 /* ESPLocalStorageProtocol.swift in Sources */,
+				281C67F72D953C73005D79E8 /* ESPConfiguration.swift in Sources */,
+				281C67FF2D953C9E005D79E8 /* ESPNotifications.swift in Sources */,
+				28771F262DAF6635006417D8 /* ESPNotificationsStore.swift in Sources */,
+				281C67F52D953C63005D79E8 /* ESPNotificationKeys.swift in Sources */,
+				281C67EB2D953C30005D79E8 /* ESPNodeDisconnectedEvent.swift in Sources */,
+				281C67EA2D953C23005D79E8 /* ESPNodeAddEvent.swift in Sources */,
+				281C67F22D953C55005D79E8 /* ESPNodeRemoveEvent.swift in Sources */,
+				281C67FC2D953C85005D79E8 /* ESPNotificationStorage.swift in Sources */,
+				281C67F12D953C52005D79E8 /* ESPNodeSharingAcceptedEvent.swift in Sources */,
+				281C67F92D953C79005D79E8 /* ESPLocalStorageNodes.swift in Sources */,
+				281C67FD2D953C88005D79E8 /* LocalStorage.swift in Sources */,
+				281C67F32D953C58005D79E8 /* ESPNodeConnectedEvent.swift in Sources */,
+				281C67F82D953C76005D79E8 /* ESPLocalStorage.swift in Sources */,
+				281C67FB2D953C7F005D79E8 /* ESPNodesStorageProtocol.swift in Sources */,
+				281C67F42D953C60005D79E8 /* ESPNotificationProtocol.swift in Sources */,
+				281C68012D953CA5005D79E8 /* Array<String>+CombinedString.swift in Sources */,
+				281C67F02D953C50005D79E8 /* ESPNodeSharingRemovedEvent.swift in Sources */,
+				281C67EE2D953C49005D79E8 /* ESPNodeSharingDeclineEvent.swift in Sources */,
+				281C67E92D953B03005D79E8 /* ESPNotificationHandler.swift in Sources */,
+				281C67EF2D953C4D005D79E8 /* ESPNotificationEvent.swift in Sources */,
+				28CA5B4A2D952C6C0092312E /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* godrejboyce */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		28CA5B4D2D952C6C0092312E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CA5B462D952C6C0092312E /* GoderjPushNotification */;
+			targetProxy = 28CA5B4C2D952C6C0092312E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19C5FBAEA368AC844A9D7347 /* Pods-godrejboyce-godrejboyceTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = godrejboyceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AdHoc;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godrejboyce.app/godrejboyce";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2C9DEAFC871ABF4645E053D /* Pods-godrejboyce-godrejboyceTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
+				INFOPLIST_FILE = godrejboyceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AdHoc;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/godrejboyce.app/godrejboyce";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59EBB5C63EFB05ADAA65279 /* Pods-godrejboyce.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = godrejboyce/godrejboyce.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = godrejboyce/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = godrej.boyce;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce;
+				PRODUCT_NAME = godrejboyce;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AppStore;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "godrejboyce-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06CF8FD5986A2699B137CB08 /* Pods-godrejboyce.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = godrejboyce/godrejboyceRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				INFOPLIST_FILE = godrejboyce/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = godrej.boyce;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce;
+				PRODUCT_NAME = godrejboyce;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AppStore;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "godrejboyce-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		28CA5B4F2D952C6C0092312E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoderjPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoderjPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce.GoderjPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SmartLife Live Push profile";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28CA5B502D952C6C0092312E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = KT33FSUHKC;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GoderjPushNotification/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GoderjPushNotification;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce.GoderjPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SmartLife Live Push profile";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "godrejboyceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "godrejboyce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28CA5B512D952C6C0092312E /* Build configuration list for PBXNativeTarget "GoderjPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CA5B4F2D952C6C0092312E /* Debug */,
+				28CA5B502D952C6C0092312E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "godrejboyce" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
