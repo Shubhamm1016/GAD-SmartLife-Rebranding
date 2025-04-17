@@ -251,6 +251,8 @@ function LoginScreen(props) {
           enableUrlBarHiding: true,
           enableDefaultShare: false,
         });
+        console.log(response, 'response');
+
         if (response && response.type === 'success' && response.url) {
           // let url = response.url;
 
@@ -258,10 +260,10 @@ function LoginScreen(props) {
             'com.godrej.boyce://success?code=',
             '',
           );
-          console.log(data,"datadatadatadata");
-          
+          console.log(data, 'datadatadatadata');
+
           let verificationcode = data.replace('#', '');
-console.log(verificationcode,"verificationcodeverificationcode");
+          console.log(verificationcode, 'verificationcodeverificationcode');
 
           try {
             let response = await LoginGoogle(verificationcode);
@@ -283,6 +285,8 @@ console.log(verificationcode,"verificationcodeverificationcode");
               await AsyncStorage.setItem('email', response.data.user_name);
 
               props.setIsLoggedIn(true);
+              fetchAll();
+              userData();
             } catch (err) {
               console.log(err);
             }
