@@ -1,0 +1,45 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/GEG-BodyCopy.ttf",
+      "sha1": "5b9b8f19ae0546943fc1aa45fd03790b2a275232"
+    },
+    {
+      "path": "assets/fonts/GEG-BodyCopyHighlight.ttf",
+      "sha1": "dbf59997a1d06ae1a7704b7f31f04580f68903bf"
+    },
+    {
+      "path": "assets/fonts/GEG-BodyCopyHighlightItalic.ttf",
+      "sha1": "8c2b484c8c3e8b254c66cada3327be3cba740b45"
+    },
+    {
+      "path": "assets/fonts/GEG-BodyCopyItalic.ttf",
+      "sha1": "2d74c32ea7cdcaeb07ed4ab40a4192b066053de0"
+    },
+    {
+      "path": "assets/fonts/GEG-Bold.ttf",
+      "sha1": "8a76eb0dc3854d889d8e2cd104a2e78406499b94"
+    },
+    {
+      "path": "assets/fonts/GEG-ExtraBold.ttf",
+      "sha1": "a052c02e62239d74433517aa973a1aed7f1ed54e"
+    },
+    {
+      "path": "assets/fonts/GEG-Headline.ttf",
+      "sha1": "bf7044fe397f3b84d5a81a3ccdf9e5ec7be00ba3"
+    },
+    {
+      "path": "assets/fonts/GEG-HeadlineItalic.ttf",
+      "sha1": "82654ca05a1b51855bb54f7cc35d176da314f092"
+    },
+    {
+      "path": "assets/fonts/GEG-Light.ttf",
+      "sha1": "71cc2e8bae0ca0f6d9fd8c57cc232a0b1e582e9b"
+    },
+    {
+      "path": "assets/fonts/GEG-LightItalic.ttf",
+      "sha1": "38722c984fdafbca0e9d9aaee245015a4749ce3c"
+    }
+  ]
+}
