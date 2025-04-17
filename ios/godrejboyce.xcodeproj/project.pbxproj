@@ -898,7 +898,7 @@
 				INFOPLIST_FILE = godrejboyce/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = godrej.boyce;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -943,7 +943,7 @@
 				INFOPLIST_FILE = godrejboyce/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = godrej.boyce;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -957,7 +957,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce;
 				PRODUCT_NAME = godrejboyce;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AppStore;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AdHoc;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
@@ -991,7 +991,7 @@
 				INFOPLIST_FILE = GoderjPushNotification/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GoderjPushNotification;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1037,7 +1037,7 @@
 				INFOPLIST_FILE = GoderjPushNotification/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = GoderjPushNotification;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1049,7 +1049,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.godrej.boyce.GoderjPushNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SmartLife Live Push profile";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = GodrejSmartLife_AdHoc_PushNOtification;
 				SKIP_INSTALL = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_EMIT_LOC_STRINGS = YES;
