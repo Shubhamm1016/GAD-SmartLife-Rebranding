@@ -18,7 +18,7 @@ import {
   Button,
   NativeModules,
 } from 'react-native';
- 
+
 import Logo from '../../components/Logo';
 import SmartLogo from '../../components/SmartLogo';
 import LinearGradient from 'react-native-linear-gradient';
@@ -57,7 +57,7 @@ import {
   GEGLight,
   GEGLightItalic,
 } from '../../comman-compnent/FontFamily';
- 
+
 function LoginScreen(props) {
   const {navigation} = props;
   console.log(SafariWebAuth, 'SafariWebAuth');
@@ -67,14 +67,14 @@ function LoginScreen(props) {
   const [secureTextEntry, setSecureTextEntry] = useState(true);
   const [checked, setChecked] = useState(false);
   const [deviceToken, setDeviceToken] = useState(null);
- 
+
   console.log(deviceToken, 'bbbbbbbbbbbb');
   console.log(checked, 'checked');
- 
+
   const toggleSecureEntry = () => {
     setSecureTextEntry(!secureTextEntry);
   };
- 
+
   let emails;
   const isnum = /^\d+$/.test(email.trim());
   if (isnum) {
@@ -88,7 +88,7 @@ function LoginScreen(props) {
   const MOBILE_REGEX = /^\+91[0-9]{10}$/;
   const PASSWORD_REGEX =
     /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{7,15}$/;
- 
+
   function pressHandler() {
     navigation.navigate('SignUp');
   }
@@ -123,19 +123,18 @@ function LoginScreen(props) {
       alert('Invalid password Correct, try another...');
       return;
     }
- 
+
     try {
       let response = await userLogin(emails, trimmedPassword);
-      console.log(response, 'data......dffff..');
+
       if (response.status == 200) {
         let tokenid = response.data.idtoken;
         let accesstoken = response.data.accesstoken;
         let refreshtoken = response.data.refreshtoken;
-        console.log(tokenid, 'accesstokenaccesstoken');
+
         await AsyncStorage.setItem('AccessToken', accesstoken);
         await AsyncStorage.setItem('TokenId', tokenid);
-        console.log(tokenid, '...tokenidtokenid');
- 
+
         await AsyncStorage.setItem('refreshtoken', refreshtoken);
         await AsyncStorage.setItem('email', emails);
         props.setIsLoggedIn(true);
@@ -147,12 +146,11 @@ function LoginScreen(props) {
         } catch (err) {
           console.log(err);
         }
- 
+
         // registerForPushNotifications();
         try {
-          console.log('before fetching');
           let deviceToken = await NotificationModuleWrapper.getDeviceToken();
-          console.log(deviceToken, 'deviceTokendeviceToken');
+
           callMobileEndPoint(deviceToken);
           handleNotification();
         } catch (err) {
@@ -177,7 +175,7 @@ function LoginScreen(props) {
   function pressHandlerNumber() {
     navigation.navigate('MobileNumberLogin');
   }
- 
+
   const requestPermissions = async () => {
     try {
       const permissions = await PushNotificationIOS.requestPermissions();
@@ -190,31 +188,28 @@ function LoginScreen(props) {
       console.error('Error requesting permissions:', error.message);
     }
   };
- 
+
   const callMobileEndPoint = async deviceToken => {
     const platform = Platform.OS === 'APNS'; // Ensure platform type is set correctly
-    console.log('Platform:', platform);
-    console.log('Device Token:', deviceToken);
- 
+
     const token = await AsyncStorage.getItem('AccessToken');
-    console.log('AccessToken:', token);
- 
+
     try {
       // Call the API to register the device endpoint
       const response = await mobileEndPoint('APNS', token, deviceToken);
- 
+
       console.log('API response in Login:', response.data);
       console.log('Response status:', response.status);
       console.log('Full response:', response);
- 
+
       // Check if the response contains platform endpoint ARN directly
       if (response.data && response.data.platform_endpoint_arn) {
         const platformEndpointArn = response.data.platform_endpoint_arn;
- 
+
         // Save Platform ARN details in AsyncStorage
         await AsyncStorage.setItem('PlatformEndpointArn', platformEndpointArn);
         console.log('Platform Endpoint ARN stored:', platformEndpointArn);
- 
+
         // Now, store the device token in AsyncStorage
         await AsyncStorage.setItem('deviceToken', deviceToken);
         console.log('Device Token stored in AsyncStorage:', deviceToken);
@@ -234,9 +229,9 @@ function LoginScreen(props) {
         console.error('Error during notification setup:', error.message);
       }
     };
- 
+
     initializePushNotifications();
- 
+
     return () => {
       PushNotificationIOS.removeEventListener('register');
       PushNotificationIOS.removeEventListener('registrationError');
@@ -246,51 +241,8 @@ function LoginScreen(props) {
       );
     };
   }, []);
- 
- 
-  
- 
-  // const handleNotification = async notification => {
-  //   try {
-  //     // Log the notification to see its structure
-  //     console.log('Received notification:', notification);
- 
-  //     // Check if notification and notification.data exist
-  //     if (!notification || !notification.data) {
-  //       console.error('Notification or notification data is undefined');
-  //       return; // Exit early if data doesn't exist
-  //     }
- 
-  //     // Extract the notification data (customData or others)
-  //     const notificationData = notification.data || notification;
-  //     const customData = notificationData.customData || {};
-  //     console.log('Notification Data:', customData);
- 
-  //     // Store the notification in AsyncStorage
-  //     const existingNotifications =
-  //       JSON.parse(await AsyncStorage.getItem('notifications')) || [];
-  //     existingNotifications.push(customData);
-  //     await AsyncStorage.setItem(
-  //       'notifications',
-  //       JSON.stringify(existingNotifications),
-  //     );
- 
-  //     console.log('Notification stored in AsyncStorage');
- 
-  //     // Navigate to the appropriate screen if 'screen' is provided in customData
-  //     if (customData.screen) {
-  //       navigation.navigate(customData.screen); // Navigate to the specified screen
-  //     }
-  //   } catch (error) {
-  //     console.error('Error handling notification:', error.message);
-  //   }
-  // };
- 
+
   const openLink = async url => {
-    // if (checked == false) {
-    //   alert('Please accept terms & Policy to Proceed');
-    //   return;
-    // }
     try {
       if (await InAppBrowser.isAvailable()) {
         const response = await InAppBrowser.openAuth(url, null, {
@@ -300,22 +252,20 @@ function LoginScreen(props) {
           enableDefaultShare: false,
         });
         if (response && response.type === 'success' && response.url) {
-          console.log(response, 'a gya app');
-          // return
-          let url = response.url;
-          console.log(url, 'url');
- 
+          // let url = response.url;
+
           let data = response.url.replace(
             'com.godrej.boyce://success?code=',
             '',
           );
+          console.log(data,"datadatadatadata");
+          
           let verificationcode = data.replace('#', '');
-          console.log(verificationcode, 'verificationcode');
-          // return
+console.log(verificationcode,"verificationcodeverificationcode");
+
           try {
             let response = await LoginGoogle(verificationcode);
-            console.log(response.data, 'response nhi a rha hai ');
-            // return
+
             await AsyncStorage.setItem(
               'AccessToken',
               response.data.access_token,
@@ -329,28 +279,18 @@ function LoginScreen(props) {
             try {
               let token = await AsyncStorage.getItem('AccessToken');
               let response = await setUser_name(token);
-              console.log(response.data, 'response111111111111');
- 
+
               await AsyncStorage.setItem('email', response.data.user_name);
- 
+
               props.setIsLoggedIn(true);
             } catch (err) {
               console.log(err);
             }
           } catch (err) {
-            // if (err.response && err.response.data) {
-            //   if (err.response.data.message) {
-            //     alert(err.response.data.message);
-            //   } else if (err.response.data.description) {
-            //     alert(err.response.data.description);
-            //   }
-            // }
-            //  else
             {
               console.error(err.response, 'Error occurred');
             }
           }
-          // Linking.openURL(url);
         }
       } else {
         console.log('InAppBrowser not available');
@@ -368,7 +308,7 @@ function LoginScreen(props) {
       }
     }
   };
- 
+
   async function onAppleButtonPressAndroid() {
     try {
       const rawNonce = uuid();
@@ -386,7 +326,7 @@ function LoginScreen(props) {
       console.log(error);
     }
   }
- 
+
   return (
     <View style={styles.main}>
       <GodrejHeader />
@@ -412,7 +352,7 @@ function LoginScreen(props) {
               // keyboardType=''
               maxLength={30}
             />
- 
+
             <View
               style={{
                 flexDirection: 'row', // Align children horizontally
@@ -486,7 +426,7 @@ function LoginScreen(props) {
               </Pressable> */}
               <Text style={styles.policy}>Continuing you are agreeing to</Text>
             </View>
- 
+
             <View style={{flexDirection: 'row', alignItems: 'center'}}>
               <TouchableOpacity
                 onPress={() => {
@@ -614,7 +554,7 @@ function LoginScreen(props) {
             </Text>
           </TouchableOpacity> */}
         </View>
- 
+
         <TouchableOpacity
           style={styles.loginOptions}
           onPress={pressHandlerNumber}>
@@ -630,9 +570,9 @@ function LoginScreen(props) {
     </View>
   );
 }
- 
+
 export default LoginScreen;
- 
+
 const styles = StyleSheet.create({
   main: {
     flex: 1,
@@ -745,7 +685,7 @@ const styles = StyleSheet.create({
     // borderColor: '#9c9a9a',
   },
   loginOptions: {
-    marginVertical:15,
+    marginVertical: 15,
     backgroundColor: '#F1F1ED',
     borderRadius: 28,
     flexDirection: 'row', // Align items horizontally
